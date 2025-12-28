@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-Darta Chalani System</title>
+
+    <!-- Elite Unicode Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Serif+Devanagari:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --blue-dark: #0a1a40;
+            --blue-soft: #142a60;
+            --white: #ffffff;
+            --gold: #d4af37;
+            --gold-soft: rgba(212,175,55,0.35);
+            --text-soft: #cfdcff;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            font-family: "Inter", "Noto Serif Devanagari", system-ui, sans-serif;
+            background: linear-gradient(180deg, var(--blue-dark), var(--blue-soft));
+            color: var(--white);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .luxury-card {
+            width: 90%;
+            max-width: 900px;
+            background: var(--blue-dark);
+            border-radius: 20px;
+            padding: 60px 70px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+            position: relative;
+            border: 2px solid var(--gold-soft);
+        }
+
+        .brand {
+            font-family: "Noto Serif Devanagari", serif;
+            font-size: 2.9rem;
+            font-weight: 800;
+            letter-spacing: 1.5px;
+            margin-bottom: 10px;
+            color: var(--gold);
+            text-shadow: 0 2px 12px rgba(212,175,55,0.4);
+        }
+
+        .subtitle {
+            font-size: 1.18rem;
+            color: var(--text-soft);
+            margin-bottom: 38px;
+            letter-spacing: 0.4px;
+        }
+
+        .divider {
+            height: 2px;
+            width: 120px;
+            background: linear-gradient(90deg, transparent, var(--gold), transparent);
+            margin: 0 auto 35px auto;
+        }
+
+        .content {
+            font-size: 1.07rem;
+            line-height: 2.05;
+            color: var(--white);
+        }
+
+        .content p { margin-bottom: 18px; }
+
+        .status {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 14px 36px;
+            border-radius: 40px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            color: var(--blue-dark);
+            background: var(--gold);
+            box-shadow: 0 10px 30px rgba(212,175,55,0.4);
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 0.8rem;
+            color: var(--text-soft);
+            opacity: 0.9;
+            letter-spacing: 0.3px;
+        }
+
+        footer a { color: var(--gold); text-decoration: none; }
+
+        .demo-contact {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: var(--gold);
+        }
+
+        @media (max-width: 640px) {
+            .luxury-card { padding: 40px 30px; }
+            .brand { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="luxury-card">
+        <div class="brand">e‑Darta Chalani</div>
+        <div class="subtitle">डार्टा तथा चलानी व्यवस्थापन प्रणाली</div>
+
+        <div class="divider"></div>
+
+        <div class="content">
+            <p>
+                यो प्रणाली ठूला संस्थाहरू, सरकारी कार्यालयहरू तथा
+                कर्पोरेट वातावरणका लागि डिजाइन गरिएको
+                अत्याधुनिक डिजिटल डार्टा–चलानी समाधान हो।
+            </p>
+
+            <p>
+                A premium, secure and enterprise‑grade platform for managing
+                official correspondence with complete auditability,
+                departmental control and long‑term scalability.
+            </p>
+        </div>
+
+        <div class="status">🚧 Under Development</div>
+
+        <footer>
+            © 2025 edartachalani.com<br>
+            Designed for Secure Digital Governance<br><br>
+            <strong>System Designed by Basant Balayar</strong><br>
+            Contact: <a href="tel:9865688558">9865688558</a> · 
+            <a href="mailto:info@basantbalayar.com.np">info@basantbalayar.com.np</a>
+            <div class="demo-contact">For Demo: <a href="mailto:info@basantbalayar.com.np">info@basantbalayar.com.np</a></div>
+        </footer>
+    </div>
+
+</body>
+</html>
