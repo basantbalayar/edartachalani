@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Block unnecessary system paths (optional)
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://edartachalani.com/sitemap.xml
