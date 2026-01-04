@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <!-- Homepage -->
   <url>
     <loc>https://edartachalani.com/</loc>
     <lastmod>2026-01-01</lastmod>
@@ -8,6 +9,7 @@
     <priority>1.0</priority>
   </url>
 
+  <!-- Core Content Pages -->
   <url>
     <loc>https://edartachalani.com/digital-darta-chalani-nepal</loc>
     <lastmod>2026-01-01</lastmod>
@@ -20,6 +22,35 @@
     <lastmod>2026-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+
+  <!-- Trust & AdSense Required Pages -->
+  <url>
+    <loc>https://edartachalani.com/privacy-policy</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://edartachalani.com/terms-and-conditions</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://edartachalani.com/about</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://edartachalani.com/contact</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
   </url>
 
 </urlset>
