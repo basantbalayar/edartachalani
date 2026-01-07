@@ -1,10 +1,20 @@
 User-agent: *
 Allow: /
 
-# Block unnecessary system paths (optional)
+# Block unnecessary system paths
 Disallow: /api/
 Disallow: /admin/
 Disallow: /private/
+
+# Explicitly allow Google AdSense & Googlebot
+User-agent: Googlebot
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: AdsBot-Google-Mobile
+Allow: /
 
 # Sitemap location
 Sitemap: https://edartachalani.com/sitemap.xml
