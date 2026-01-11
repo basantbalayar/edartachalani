@@ -1,211 +1,364 @@
 <!DOCTYPE html>
-<html lang="ne">
-<head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-adsense-account" content="ca-pub-3046151624575319" />
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3046151624575319"
+      crossorigin="anonymous"
+    ></script>
+    <title>
+      e-Darta Chalani System in Nepal | Digital Government Office Software
+    </title>
+    <meta
+      name="description"
+      content="e-Darta Chalani System - Secure digital darta chalani management software for government offices in Nepal."
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://edartachalani.com/" />
+    <link rel="icon" href="/logo.png" type="image/png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      :root {
+        --primary: #0f1f4e;
+        --primary-light: #1e3a8a;
+        --accent: #f59e0b;
+        --white: #ffffff;
+        --light: #f3f4f6;
+        --text-dark: #1f2937;
+        --text-light: #6b7280;
+        --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+      body {
+        font-family: "Inter", sans-serif;
+        color: var(--text-dark);
+        line-height: 1.6;
+        background: var(--white);
+      }
 
-  <!-- ================= BASIC META ================= -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="google-adsense-account" content="ca-pub-3046151624575319">
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3046151624575319"
-     crossorigin="anonymous"></script>
+      /* Header */
+      header {
+        background: linear-gradient(
+          135deg,
+          var(--primary) 0%,
+          var(--primary-light) 100%
+        );
+        color: var(--white);
+        padding: 20px 0;
+        box-shadow: var(--shadow);
+        position: sticky;
+        top: 0;
+        z-index: 100;
+      }
+      .header-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .logo {
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: var(--accent);
+        text-decoration: none;
+      }
+      nav {
+        display: flex;
+        gap: 25px;
+      }
+      nav a {
+        color: var(--white);
+        text-decoration: none;
+        font-weight: 500;
+        transition: 0.3s;
+        padding: 8px 12px;
+        border-radius: 6px;
+      }
+      nav a:hover {
+        color: var(--accent);
+        background: rgba(255, 255, 255, 0.1);
+      }
 
-  <!-- ================= FAVICON ================= -->
-  <link rel="icon" href="/logo.png" type="image/png">
-  <link rel="apple-touch-icon" href="/logo.png">
-  <link rel="shortcut icon" href="/logo.png">
-  <meta name="msapplication-TileImage" content="/logo.png">
+      /* Hero */
+      .hero {
+        background: linear-gradient(
+          135deg,
+          var(--primary) 0%,
+          var(--primary-light) 100%
+        );
+        color: var(--white);
+        padding: 100px 20px;
+        text-align: center;
+      }
+      .hero-content {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      .hero img {
+        width: 120px;
+        margin-bottom: 30px;
+        filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+      }
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 15px;
+        color: var(--accent);
+        font-weight: 800;
+      }
+      .hero-subtitle {
+        font-size: 1.3rem;
+        margin-bottom: 30px;
+        color: rgba(255, 255, 255, 0.9);
+      }
+      .btn {
+        display: inline-block;
+        background: var(--accent);
+        color: var(--primary);
+        padding: 14px 40px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: 700;
+        transition: 0.3s;
+        box-shadow: var(--shadow);
+      }
+      .btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px rgba(245, 158, 11, 0.4);
+      }
 
-  <!-- ================= TITLE (SEO SAFE) ================= -->
-  <title>e-Darta Chalani System in Nepal | Digital Government Office Software</title>
+      /* Main Content */
+      main {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 60px 20px;
+      }
+      section {
+        margin-bottom: 60px;
+      }
+      h2 {
+        font-size: 2rem;
+        color: var(--primary);
+        margin-bottom: 25px;
+        border-left: 4px solid var(--accent);
+        padding-left: 20px;
+      }
+      p {
+        color: var(--text-light);
+        font-size: 1.05rem;
+        margin-bottom: 15px;
+      }
 
-  <!-- ================= SEO META ================= -->
-  <meta name="description" content="e-Darta Chalani System in Nepal – Secure digital darta–chalani management software for government offices, municipalities, universities and enterprises.">
-  <meta name="author" content="Basant Balayar">
-  <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://edartachalani.com/">
+      /* Features Grid */
+      .features-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        list-style: none;
+      }
+      .features-grid li {
+        background: var(--light);
+        padding: 25px;
+        border-radius: 8px;
+        border-left: 4px solid #3b82f6;
+        transition: all 0.3s;
+      }
+      .features-grid li:hover {
+        transform: translateY(-4px);
+        box-shadow: var(--shadow);
+      }
 
-  <!-- ================= OPEN GRAPH ================= -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="e-Darta Chalani System in Nepal">
-  <meta property="og:description" content="Secure digital darta–chalani system for government and institutional use in Nepal.">
-  <meta property="og:url" content="https://edartachalani.com/">
-  <meta property="og:image" content="https://edartachalani.com/logo.png">
+      /* Footer */
+      footer {
+        background: var(--primary);
+        color: var(--white);
+        padding: 50px 20px;
+        text-align: center;
+        border-top: 3px solid var(--accent);
+      }
+      .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      .footer-links {
+        margin: 25px 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+      }
+      footer a {
+        color: var(--accent);
+        text-decoration: none;
+        font-weight: 500;
+      }
+      footer a:hover {
+        text-decoration: underline;
+      }
+      footer p {
+        margin: 10px 0;
+      }
 
-  <!-- ================= TWITTER ================= -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="e-Darta Chalani System in Nepal">
-  <meta name="twitter:description" content="Digital Darta–Chalani Software for Government Offices in Nepal">
-  <meta name="twitter:image" content="https://edartachalani.com/logo.png">
+      /* Responsive */
+      @media (max-width: 768px) {
+        h1 {
+          font-size: 2rem;
+        }
+        .hero-subtitle {
+          font-size: 1rem;
+        }
+        nav {
+          gap: 15px;
+          font-size: 0.9rem;
+        }
+        h2 {
+          font-size: 1.5rem;
+        }
+        .features-grid {
+          grid-template-columns: 1fr;
+        }
+        .header-content {
+          flex-direction: column;
+          gap: 15px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <a href="/" class="logo">e-Darta Chalani</a>
+        <nav>
+          <a href="/">Home</a>
+          <a href="/about.html">About</a>
+          <a href="/my-story.html">My Story</a>
+          <a href="/darta-chalani-benefits.html">Benefits</a>
+          <a href="/darta-chalani-faq.html">FAQ</a>
+          <a href="/contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
 
-  <!-- ================= FONTS ================= -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Serif+Devanagari:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <section class="hero">
+      <div class="hero-content">
+        <img src="/logo.png" alt="e-Darta Chalani System" />
+        <h1>e-Darta Chalani System</h1>
+        <p class="hero-subtitle">
+          Digital Document Management for Government Offices in Nepal
+        </p>
+        <a href="mailto:info@basantbalayar.com.np" class="btn">Request Demo</a>
+      </div>
+    </section>
 
-  <!-- ================= SCHEMA ================= -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "e-Darta Chalani System",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "Web",
-    "description": "Digital Darta Chalani management software for government offices and institutions in Nepal.",
-    "creator": {
-      "@type": "Person",
-      "name": "Basant Balayar"
-    }
-  }
-  </script>
+    <main>
+      <section>
+        <h2>What is e-Darta Chalani System?</h2>
+        <p>
+          e-Darta Chalani System is a secure digital document registration and
+          correspondence management platform designed for government offices,
+          municipalities, universities, banks, and enterprises in Nepal.
+        </p>
+      </section>
 
-  <!-- ================= STYLES ================= -->
-  <style>
-    :root {
-      --blue-dark: #0a1a40;
-      --blue-soft: #142a60;
-      --white: #ffffff;
-      --gold: #d4af37;
-      --gold-soft: rgba(212,175,55,0.35);
-      --text-soft: #cfdcff;
-    }
+      <section>
+        <h2>Key Features</h2>
+        <ul class="features-grid">
+          <li>✓ Incoming & Outgoing Digital Darta–Chalani</li>
+          <li>✓ Inter-Office Chalani Tracking</li>
+          <li>✓ Role-Based Access Control</li>
+          <li>✓ QR Code Verification</li>
+          <li>✓ Audit Logs & Reports</li>
+          <li>✓ Bilingual Support (Nepali & English)</li>
+        </ul>
+      </section>
 
-    body {
-      margin: 0;
-      font-family: "Inter", "Noto Serif Devanagari", system-ui, sans-serif;
-      background: linear-gradient(180deg, var(--blue-dark), var(--blue-soft));
-      color: var(--white);
-      line-height: 1.9;
-    }
+      <section>
+        <h2>Digital Darta Chalani in Nepal</h2>
+        <p>
+          Digital Darta Chalani in Nepal helps government offices move away from
+          paper-based registers to a secure, searchable, and centralized digital
+          system. It improves transparency, reduces processing time, and ensures
+          proper record keeping aligned with Nepali government procedures.
+        </p>
+        <p>
+          <a
+            href="/digital-darta-chalani-nepal.html"
+            style="font-weight: 600; font-size: 1.05rem"
+            >Read full guide →</a
+          >
+        </p>
+      </section>
 
-    header, section, footer {
-      max-width: 1100px;
-      margin: auto;
-      padding: 60px 20px;
-    }
+      <section>
+        <h2>Manual vs Digital Darta Chalani</h2>
+        <p>
+          Traditional manual darta chalani systems are prone to data loss,
+          duplication, and lack of accountability. Digital systems provide audit
+          logs, role-based access, QR verification, and real-time tracking.
+        </p>
+        <p>
+          <a
+            href="/manual-vs-digital-darta-chalani.html"
+            style="font-weight: 600; font-size: 1.05rem"
+            >Compare manual vs digital →</a
+          >
+        </p>
+      </section>
+    </main>
 
-    h1 {
-      font-size: 3rem;
-      color: var(--gold);
-      text-align: center;
-    }
-
-    h2 {
-      color: var(--gold);
-      margin-top: 40px;
-    }
-
-    p, li {
-      color: var(--text-soft);
-      font-size: 1.05rem;
-    }
-
-    .hero {
-      text-align: center;
-    }
-
-    .hero img {
-      width: 120px;
-      margin-bottom: 20px;
-    }
-
-    .cta {
-      margin-top: 30px;
-      display: inline-block;
-      background: var(--gold);
-      color: var(--blue-dark);
-      padding: 14px 36px;
-      border-radius: 40px;
-      font-weight: 700;
-      text-decoration: none;
-    }
-
-    footer {
-      text-align: center;
-      font-size: 0.9rem;
-      border-top: 1px solid var(--gold-soft);
-    }
-
-    footer a {
-      color: var(--gold);
-      text-decoration: none;
-      margin: 0 6px;
-    }
-  </style>
-</head>
-
-<body>
-
-<header class="hero">
-  <img src="/logo.png" alt="e-Darta Chalani System – Digital Darta Chalani Software Nepal">
-  <h1>e-Darta Chalani System</h1>
-  <p>Digital Darta–Chalani Management Software for Government Offices in Nepal</p>
-  <a class="cta" href="mailto:info@basantbalayar.com.np">Request Demo</a>
-</header>
-
-<section>
-  <h2>What is e-Darta Chalani System?</h2>
-  <p>
-    e-Darta Chalani System is a secure digital document registration and
-    correspondence management platform designed for government offices,
-    municipalities, universities, banks, and enterprises in Nepal.
-  </p>
-</section>
-
-<section>
-  <h2>Key Features</h2>
-  <ul>
-    <li>Incoming & Outgoing Digital Darta–Chalani</li>
-    <li>Inter-Office Chalani Tracking</li>
-    <li>Role-Based Access Control</li>
-    <li>QR Code Verification</li>
-    <li>Audit Logs & Reports</li>
-    <li>Bilingual Support (Nepali & English)</li>
-  </ul>
-</section>
-<section>
-  <h2>Digital Darta Chalani in Nepal</h2>
-  <p>
-    <strong>Digital Darta Chalani in Nepal</strong> helps government offices move away from
-    paper-based registers to a secure, searchable, and centralized digital system.
-    It improves transparency, reduces processing time, and ensures proper record keeping
-    aligned with Nepali government procedures.
-  </p>
-  <p>
-    Learn more about how digital darta chalani works in Nepal:
-    <a href="/digital-darta-chalani-nepal" style="color:#d4af37; font-weight:600;">
-      Read full guide →
-    </a>
-  </p>
-</section>
-
-<section>
-  <h2>Manual vs Digital Darta Chalani</h2>
-  <p>
-    Traditional manual darta chalani systems are prone to data loss, duplication,
-    and lack of accountability. In contrast, a <strong>digital darta chalani system</strong>
-    provides audit logs, role-based access, QR verification, and real-time tracking.
-  </p>
-  <p>
-    Understand the difference between manual and digital darta chalani systems:
-    <a href="/manual-vs-digital-darta-chalani" style="color:#d4af37; font-weight:600;">
-      Compare manual vs digital →
-    </a>
-  </p>
-</section>
-
-<footer>
-  © 2026 edartachalani.com<br>
-  Designed for Secure Digital Governance<br>
-  <strong>System Designed by Basant Balayar</strong><br><br>
-  <a href="/digital-darta-chalani-nepal">Digital Darta Chalani Nepal</a> |
-<a href="/manual-vs-digital-darta-chalani">Manual vs Digital</a> |
-<a href="/privacy-policy">Privacy Policy</a> |
-<a href="/terms-and-conditions">Terms</a> |
-<a href="/about">About</a> |
-<a href="/contact">Contact</a>
-
-  
-
-  For Demo: <a href="mailto:info@basantbalayar.com.np">info@basantbalayar.com.np</a>
-</footer>
-
-</body>
+    <footer>
+      <div
+        class="ad-space"
+        style="
+          background-color: #f9fafb;
+          padding: 30px;
+          text-align: center;
+          margin: 40px 0;
+          border-radius: 8px;
+          min-height: 300px;
+        "
+      >
+        <ins
+          class="adsbygoogle"
+          style="display: block"
+          data-ad-client="ca-pub-3046151624575319"
+          data-ad-slot="1234567890"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+      <div class="footer-content">
+        <p><strong>© 2026 edartachalani.com</strong></p>
+        <p>Secure Digital Governance Platform</p>
+        <div class="footer-links">
+          <a href="/digital-darta-chalani-nepal.html">Guide</a>
+          <a href="/darta-chalani-benefits.html">Benefits</a>
+          <a href="/about.html">About</a>
+          <a href="/privacy-policy.html">Privacy</a>
+          <a href="/terms-and-conditions.html">Terms</a>
+          <a href="/contact.html">Contact</a>
+        </div>
+        <p>
+          Email:
+          <a href="mailto:info@basantbalayar.com.np"
+            >info@basantbalayar.com.np</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>

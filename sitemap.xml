@@ -1,56 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
   <url>
-    <loc>https://edartachalani.com/</loc>
-    <lastmod>2026-01-01</lastmod>
+    <loc>https://edartachalani.com/index.html</loc>
+    <lastmod>2026-01-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Core Content Pages -->
+  <!-- About Page -->
   <url>
-    <loc>https://edartachalani.com/digital-darta-chalani-nepal</loc>
-    <lastmod>2026-01-01</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://edartachalani.com/about.html</loc>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
+  <!-- My Story Page -->
   <url>
-    <loc>https://edartachalani.com/manual-vs-digital-darta-chalani</loc>
-    <lastmod>2026-01-01</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://edartachalani.com/my-story.html</loc>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Benefits Page -->
+  <url>
+    <loc>https://edartachalani.com/darta-chalani-benefits.html</loc>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- FAQ Page -->
+  <url>
+    <loc>https://edartachalani.com/darta-chalani-faq.html</loc>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Trust & AdSense Required Pages -->
+  <!-- Digital Darta Chalani Nepal -->
   <url>
-    <loc>https://edartachalani.com/privacy-policy</loc>
-    <lastmod>2026-01-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
+    <loc>https://edartachalani.com/digital-darta-chalani-nepal.html</loc>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
 
+  <!-- Manual vs Digital -->
   <url>
-    <loc>https://edartachalani.com/terms-and-conditions</loc>
-    <lastmod>2026-01-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
+    <loc>https://edartachalani.com/manual-vs-digital-darta-chalani.html</loc>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
+  <!-- Implementation Guide -->
   <url>
-    <loc>https://edartachalani.com/about</loc>
-    <lastmod>2026-01-01</lastmod>
+    <loc>https://edartachalani.com/darta-chalani-implementation-guide.html</loc>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://edartachalani.com/contact.html</loc>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://edartachalani.com/privacy-policy.html</loc>
+    <lastmod>2026-01-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
 
+  <!-- Terms & Conditions -->
   <url>
-    <loc>https://edartachalani.com/contact</loc>
-    <lastmod>2026-01-01</lastmod>
+    <loc>https://edartachalani.com/terms-and-conditions.html</loc>
+    <lastmod>2026-01-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
-
 </urlset>
